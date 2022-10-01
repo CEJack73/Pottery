@@ -1,0 +1,18 @@
+
+Create a repo in github.
+in AWS, create an app in aws amplify: (web host)
+Go through the prompts to connect to github repository
+
+
+
+Route 53 
+go to hosted zones and create one. 
+Add godaddy url and let it find it.  Wait til it verifies.
+
+When IDs appear, use them to create CNames in godaddy (DNS management)
+The first cname in aws to copy appears once the domain name is cerified.  the second is found in DNS..?  activity?  in dropdown somewhere on the main screen.
+Don't use the aname at all.  Just the cnames. 
+
+
+troubleshooting:
+The region (top of aws near username) matters.  If you have the wrong one selected it won't show all your apps.
